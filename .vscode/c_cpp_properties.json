@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "STM32F10X_MD",
+                "HSE_VALUE=8000000",
+                "USE_STDPERIPH_DRIVER"
+            ]         
+        }
+    ],
+    "version": 4
+}
